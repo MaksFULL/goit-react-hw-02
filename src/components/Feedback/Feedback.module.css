@@ -1,0 +1,32 @@
+.box {
+    position: relative;
+  }
+  .list {
+    background-color: #d2d3fd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px #d2d3fd;
+  }
+  .item {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #242424;
+    text-shadow: 1px 1px 2px #adacb1;
+  }
+  .count {
+    font-weight: 700;
+    color: rgb(15, 19, 9);
+  }
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .icon:hover {
+    transform: scale(1.1);
+  }
